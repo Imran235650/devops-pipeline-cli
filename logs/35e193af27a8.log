@@ -1,0 +1,12 @@
+2026-02-01T22:01:45Z DEBUG run_id=35e193af27a8 src.pipeline_cli.cli - Logging initialized at logs\35e193af27a8.log
+2026-02-01T22:01:45Z INFO run_id=35e193af27a8 src.pipeline_cli.pipeline - Run started. artifact=api-service@1.0.0
+2026-02-01T22:01:45Z INFO run_id=35e193af27a8 src.pipeline_cli.pipeline - Waiting for manual approval...
+2026-02-01T22:01:45Z INFO run_id=35e193af27a8 src.pipeline_cli.pipeline - Step started: build
+2026-02-01T22:01:46Z INFO run_id=35e193af27a8 src.pipeline_cli.pipeline - Step finished: build (success)
+2026-02-01T22:01:46Z INFO run_id=35e193af27a8 src.pipeline_cli.pipeline - Step started: test
+2026-02-01T22:01:46Z INFO run_id=35e193af27a8 src.pipeline_cli.pipeline - Step finished: test (success)
+2026-02-01T22:01:46Z INFO run_id=35e193af27a8 src.pipeline_cli.pipeline - Step started: package
+2026-02-01T22:01:47Z INFO run_id=35e193af27a8 src.pipeline_cli.pipeline - Step finished: package (success)
+2026-02-01T22:01:47Z INFO run_id=35e193af27a8 src.pipeline_cli.pipeline - Step started: deploy
+2026-02-01T22:01:47Z INFO run_id=35e193af27a8 src.pipeline_cli.pipeline - Step finished: deploy (success)
+2026-02-01T22:01:47Z INFO run_id=35e193af27a8 src.pipeline_cli.pipeline - Run finished. status=success

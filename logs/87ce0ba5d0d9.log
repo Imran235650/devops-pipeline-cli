@@ -1,0 +1,17 @@
+2026-02-01T21:54:05Z DEBUG run_id=87ce0ba5d0d9 __main__ - Logging initialized at logs\87ce0ba5d0d9.log
+2026-02-01T21:54:05Z INFO run_id=87ce0ba5d0d9 src.pipeline_cli.pipeline - Run started. artifact=api-service@1.0.0
+2026-02-01T21:54:05Z INFO run_id=87ce0ba5d0d9 src.pipeline_cli.pipeline - Waiting for manual approval...
+2026-02-01T21:54:05Z INFO run_id=87ce0ba5d0d9 src.pipeline_cli.pipeline - Step started: build
+2026-02-01T21:54:05Z INFO run_id=87ce0ba5d0d9 src.pipeline_cli.pipeline - Step finished: build (success)
+2026-02-01T21:54:05Z INFO run_id=87ce0ba5d0d9 src.pipeline_cli.pipeline - Step started: test
+2026-02-01T21:54:06Z INFO run_id=87ce0ba5d0d9 src.pipeline_cli.pipeline - Step finished: test (success)
+2026-02-01T21:54:06Z INFO run_id=87ce0ba5d0d9 src.pipeline_cli.pipeline - Step started: package
+2026-02-01T21:54:06Z INFO run_id=87ce0ba5d0d9 src.pipeline_cli.pipeline - Step finished: package (success)
+2026-02-01T21:54:06Z INFO run_id=87ce0ba5d0d9 src.pipeline_cli.pipeline - Step started: deploy
+2026-02-01T21:54:07Z INFO run_id=87ce0ba5d0d9 src.pipeline_cli.pipeline - Step finished: deploy (success)
+2026-02-01T21:54:07Z INFO run_id=87ce0ba5d0d9 src.pipeline_cli.pipeline - Run finished. status=success
+2026-02-01T21:54:07Z ERROR run_id=87ce0ba5d0d9 __main__ - Unexpected error
+Traceback (most recent call last):
+  File "C:\Users\VLuth\Downloads\devops-pipeline-cli\src\pipeline_cli\cli.py", line 109, in run
+    raise typer.Exit(code=0 if result.status == "success" else 1)
+click.exceptions.Exit

@@ -1,0 +1,38 @@
+{
+  "run_id": "337e809032e9",
+  "artifact": "api-service@1.0.0",
+  "approved": true,
+  "status": "success",
+  "started_at": "2026-02-02T01:57:40.685650+00:00",
+  "finished_at": "2026-02-02T01:57:42.690327+00:00",
+  "steps": [
+    {
+      "name": "build",
+      "status": "success",
+      "started_at": "2026-02-02T01:57:40.686542+00:00",
+      "finished_at": "2026-02-02T01:57:41.187119+00:00",
+      "message": "OK"
+    },
+    {
+      "name": "test",
+      "status": "success",
+      "started_at": "2026-02-02T01:57:41.187530+00:00",
+      "finished_at": "2026-02-02T01:57:41.688337+00:00",
+      "message": "OK"
+    },
+    {
+      "name": "package",
+      "status": "success",
+      "started_at": "2026-02-02T01:57:41.688739+00:00",
+      "finished_at": "2026-02-02T01:57:42.189238+00:00",
+      "message": "OK"
+    },
+    {
+      "name": "deploy",
+      "status": "success",
+      "started_at": "2026-02-02T01:57:42.189605+00:00",
+      "finished_at": "2026-02-02T01:57:42.689955+00:00",
+      "message": "OK"
+    }
+  ]
+}

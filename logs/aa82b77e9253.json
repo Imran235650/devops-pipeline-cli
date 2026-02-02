@@ -1,0 +1,38 @@
+{
+  "run_id": "aa82b77e9253",
+  "artifact": "api-service@1.0.0",
+  "approved": true,
+  "status": "failed",
+  "started_at": "2026-02-02T01:54:25.243042+00:00",
+  "finished_at": "2026-02-02T01:54:26.245483+00:00",
+  "steps": [
+    {
+      "name": "build",
+      "status": "success",
+      "started_at": "2026-02-02T01:54:25.243535+00:00",
+      "finished_at": "2026-02-02T01:54:25.744012+00:00",
+      "message": "OK"
+    },
+    {
+      "name": "test",
+      "status": "failed",
+      "started_at": "2026-02-02T01:54:25.744472+00:00",
+      "finished_at": "2026-02-02T01:54:26.245062+00:00",
+      "message": "Simulated failure at step 'test'."
+    },
+    {
+      "name": "package",
+      "status": "skipped",
+      "started_at": "2026-02-02T01:54:26.245469+00:00",
+      "finished_at": "2026-02-02T01:54:26.245469+00:00",
+      "message": "Skipped due to previous failure."
+    },
+    {
+      "name": "deploy",
+      "status": "skipped",
+      "started_at": "2026-02-02T01:54:26.245478+00:00",
+      "finished_at": "2026-02-02T01:54:26.245478+00:00",
+      "message": "Skipped due to previous failure."
+    }
+  ]
+}
